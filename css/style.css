@@ -1,0 +1,151 @@
+body {
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  max-height: 99%;
+  background: url("http://tritruong.mon:8080/source/images/back.jpg") repeat; }
+  body h2 {
+    font-family: Monospace;
+    font-weight: bold; }
+  body input {
+    width: 221px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: url("http://tritruong.mon:8080/source/images/back.jpg") repeat; }
+  body input:focus {
+    outline: none; }
+  body textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    background: url("http://tritruong.mon:8080/source/images/back.jpg") repeat; }
+  body textarea:focus {
+    outline: none; }
+  body table {
+    margin-left: 30px; }
+  body td {
+    font-family: Monospace;
+    font-size: 16px; }
+    body td a {
+      color: black;
+      text-decoration: none; }
+    body td a:hover {
+      border-bottom: 2px solid black; }
+  body p {
+    font-family: Monospace;
+    font-size: 16px; }
+
+.wrapper {
+  max-width: 99%;
+  display: none; }
+
+.header {
+  background: url("http://tritruong.mon:8080/source/images/back.jpg") repeat;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid black;
+  box-shadow: -9px 18px 26px -18px black;
+  position: fixed; }
+  .header #logo {
+    float: left;
+    width: 250px; }
+  .header #menu-bar {
+    float: right;
+    padding-right: 100px; }
+    .header #menu-bar ul li {
+      display: inline-block;
+      padding-right: 50px; }
+      .header #menu-bar ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif; }
+      .header #menu-bar ul li a:hover {
+        border-bottom: 2px solid black; }
+
+.container {
+  width: 1250px;
+  max-height: 99%;
+  margin: 100px auto;
+  padding-bottom: 130px; }
+
+.container-left {
+  float: left;
+  border-right: 1px dashed black;
+  padding-right: 60px; }
+  .container-left #profile {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px; }
+  .container-left #education {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px; }
+    .container-left #education span {
+      color: black;
+      font-family: Monospace;
+      font-size: 16px;
+      font-style: italic; }
+    .container-left #education span:hover {
+      border-bottom: 2px solid black;
+      font-style: inherit; }
+    .container-left #education .showmore-e {
+      display: none; }
+
+.skills-down img {
+  display: block;
+  margin-left: 30px; }
+
+.container-right {
+  float: right; }
+  .container-right .img {
+    -webkit-box-shadow: 6px 4px 20.3px rgba(0, 12, 16, 0.1); }
+  .container-right #achievement {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px; }
+    .container-right #achievement p {
+      margin-left: 30px; }
+      .container-right #achievement p span {
+        color: black;
+        font-family: arial, sans-serif;
+        font-style: italic; }
+      .container-right #achievement p span:hover {
+        border-bottom: 2px solid black;
+        font-style: inherit; }
+    .container-right #achievement .showmore {
+      display: none; }
+  .container-right #avatar img {
+    width: 405px;
+    display: block;
+    margin: 0 auto; }
+  .container-right #avatar .avatar-2 {
+    display: none; }
+
+.footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-top: 1px solid black;
+  box-shadow: -10px -15px 19px -13px black;
+  background: url("http://tritruong.mon:8080/source/images/back.jpg") repeat; }
+  .footer .f-left {
+    height: 30px;
+    float: left;
+    padding-right: 450px; }
+    .footer .f-left p {
+      padding-left: 50px; }
+  .footer .f-right {
+    float: left;
+    margin-left: 50px;
+    margin-top: -15px; }
+    .footer .f-right i {
+      padding-top: 30px;
+      padding-right: 20px; }
+
+.clear {
+  clear: both; }
+
